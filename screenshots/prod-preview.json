@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "PLAIN SIGHT",
+      "hasCanvas": false,
+      "bodyTextLen": 4803,
+      "bodyTextHash": "d3de3ab964d3d34444e61c769502776375f68062c8f2164f96a61589199f621a",
+      "bodyTextPrefix": "JPANDA MARK LOOK ONCE COLOR TYPE VOICE USE HOUSE JPANDA PLAIN SI",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "PLAIN SIGHT",
+      "hasCanvas": false,
+      "bodyTextLen": 4761,
+      "bodyTextHash": "4b0566037d5491ea67bcf1672da0d0b6766359886aa1cf18c7f088aba20db000",
+      "bodyTextPrefix": "JPANDA JPANDA PLAIN SIGHT alea iacta est. A house mark that does",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/prod-preview.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
