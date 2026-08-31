@@ -16,6 +16,17 @@ export const Route = createRootRoute({
         name: "description",
         content: "JPanda. A private lookbook. Two maisons. alea iacta est.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:title", content: APP_NAME },
+      {
+        property: "og:description",
+        content: "JPanda. A private lookbook. Two maisons. alea iacta est.",
+      },
+      { property: "og:image", content: "https://jpanda.vercel.app/og.jpg" },
+      { property: "og:url", content: "https://jpanda.vercel.app/" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: APP_NAME },
+      { name: "twitter:image", content: "https://jpanda.vercel.app/og.jpg" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
