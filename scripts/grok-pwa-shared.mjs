@@ -83,6 +83,7 @@ export function appNameFromHost(hostHeader) {
 
 /** True for Vercel system domains. Envoy rewrites origin Host to these; they SSO-protect `/og.jpg`. */
 function isVercelSystemHost(host) {
+  if (host === "jpanda.vercel.app") return false;
   return (
     host === "vercel.app" ||
     host.endsWith(".vercel.app") ||
