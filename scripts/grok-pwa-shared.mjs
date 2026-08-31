@@ -111,7 +111,7 @@ export function publicAppHost(hostHeader) {
  * app — Envoy rewrites it to `*.vercel.app`.
  */
 export function resolvePublicHost(hostHeader) {
-  const fromEnv = String(process.env?.VITE_PUBLIC_HOSTNAME ?? "")
+  const fromEnv = String(process.env.VITE_PUBLIC_HOSTNAME || "")
     .trim()
     .replace(/^https?:\/\//i, "")
     .split("/")[0]
