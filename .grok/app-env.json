@@ -1,5 +1,6 @@
 {
   "VITE_AUTH_ENABLED": "false",
+  "VITE_PUBLIC_HOSTNAME": "jpanda.vercel.app",
   "deploy": {
     "database": false
   }
